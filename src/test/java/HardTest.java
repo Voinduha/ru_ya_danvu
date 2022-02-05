@@ -5,6 +5,6 @@ public class HardTest {
 
     @Test
     void AssertNotTrue() {
-        Assertions.assertTrue(3 > 0);
+        Assertions.fail();
     }
 }
